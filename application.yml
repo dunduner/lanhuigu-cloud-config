@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: test
+---
+spring:
+  profiles: test
+  application:
+    name: lanhuigu-config-test
+server:
+  port: 8000
+---
+spring:
+  profiles: prod
+  application:
+    name: lanhuigu-config-prod
+server:
+  port: 8888
