@@ -1,5 +1,5 @@
 spring:
   application:
-    name: eureka-provider-order-dev
+    name: order-dev
 server:
   port: 8001
