@@ -7,7 +7,7 @@ spring:
   application:
     name: lanhuigu-config-client-test
 server:
-  port: 8001
+  port: 9005
 ---
 spring:
   profiles: prod
